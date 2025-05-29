@@ -1,4 +1,13 @@
-# Techinical-debt
-
 Deliberate & Prudent
-  
+Change  Introduced:
+1.	Disabling of a port which receives fault events from perception component .
+2.	This disabling of port was done for a demo to customer .
+Impact :
+1.	Will not receive fault events from Perception .
+2.	Unit test and SW test is not planned for this part of code .
+3.	SW architecture and system architecture not planned .
+4.	No impact for the customer demo as this set of fault events need not be processed or logged .
+Planned activities:
+1.	Reintroduction of the port planned in the next PI .
+2.	Unit test ,SW test and system test planned .
+3.	Change in SW architecture and system architecture planned .
